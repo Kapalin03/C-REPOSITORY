@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <limits.h> 
+#include <float.h>  
+int main() {
+    printf("INTEGER RANGE:\n");
+    printf("Min Int Value: %d\n", INT_MIN);
+    printf("Max Int Value: %d\n", INT_MAX);
+    printf("FLOAT RANGE:\n");
+    printf("Min Float Value: %e\n", FLT_MIN); // %e is used for scientific notation
+    printf("Max Float Value: %e\n", FLT_MAX);
+    return 0;
+}
+
+OUTPUT
+
+INTEGER RANGE:
+Min Int Value: -2147483648
+Max Int Value: 2147483647
+FLOAT RANGE:
+Min Float Value: 1.175494e-038
+Max Float Value: 3.402823e+038
