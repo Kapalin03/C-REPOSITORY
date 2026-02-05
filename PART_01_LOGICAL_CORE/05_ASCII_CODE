@@ -1,0 +1,14 @@
+#include <stdio.h>
+int main() 
+{
+    char c; 
+    printf("Enter the character:");
+    scanf("%c",&c);
+    printf("ASCII code of %c is %d",c,c);
+    return 0;
+}
+
+OUTPUT
+
+Enter the character:r
+ASCII code of r is 114
