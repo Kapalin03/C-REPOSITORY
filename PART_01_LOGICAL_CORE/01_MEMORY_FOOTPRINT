@@ -1,1 +1,24 @@
+/*Write a program to print the size of char, short, int, long, long long, float, double, and long double on your system.*/
+#include<stdio.h>
+int main()
+{
+    printf("The size of char is: %d",sizeof(char));
+    printf("\nThe size of short is: %d",sizeof(short));
+    printf("\nThe size of int is: %d",sizeof(int));
+    printf("\nThe size of long is: %d",sizeof(long));
+    printf("\nThe size of long long is: %d",sizeof(long long));
+    printf("\nThe size of float is: %d",sizeof(float));
+    printf("\nThe size of double is: %d",sizeof(double));
+    printf("\nThe size of long double is: %d",sizeof(long double));
+    return 0;
+}
 
+OUTPUT:
+The size of char is: 1
+The size of short is: 2
+The size of int is: 4
+The size of long is: 4
+The size of long long is: 8
+The size of float is: 4
+The size of double is: 8
+The size of long double is: 12
