@@ -1,0 +1,16 @@
+#include<stdio.h>
+#define PI 3.1416
+int main()
+{float r;
+    printf("Enter the value of radius:");
+    scanf("%f",&r);
+    printf("The cirumference of the circle is: %f",(2*PI*r));
+    printf("\nThe area of the circle is: %f",(r*PI*r));
+    return 0;
+}
+
+OUTPUT
+
+Enter the value of radius:7
+The cirumference of the circle is: 43.982400
+The area of the circle is: 153.938400
