@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <limits.h>
+int main() {
+    int max_val = INT_MAX; 
+    printf("Maximum Int Value: %d\n", max_val);
+    int overflowed_val = max_val + 1;
+    printf("Value after adding 1: %d\n", overflowed_val);
+    return 0;
+}
+
+OUTPUT
+
+Maximum Int Value: 2147483647
+Value after adding 1: -2147483648
