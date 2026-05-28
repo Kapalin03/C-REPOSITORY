@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main()
+{int a,b;
+float c,d;
+printf("Enter two integers: ");
+scanf("%d%d",&a,&b);
+printf("Enter two floats: ");
+scanf("%f%f",&c,&d);
+printf("Sum of integers is %d\n",a+b);
+printf("Difference of integers is %d\n",a-b);
+printf("Sum of floats is %.1f\n",c+d);
+printf("Sum of integers is %.1f",c-d);   
+    return 0;
+}
